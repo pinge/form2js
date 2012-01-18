@@ -103,7 +103,7 @@ var form2js = (function()
 			for(j = 0; j < _nameParts.length; j++)
 			{
 				namePart = _nameParts[j].split('][');
-				if (namePart.length > 1)
+				if (namePart.length > 0)
 				{
 					for(k = 0; k < namePart.length; k++)
 					{
